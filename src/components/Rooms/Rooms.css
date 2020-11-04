@@ -1,0 +1,38 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #172a3a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #95adb6;
+  border-radius: 8px;
+  height: 60%;
+  width: 35%;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  color: white;
+}
+
+.centerInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-right: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  border-bottom: 3px solid black;
+}

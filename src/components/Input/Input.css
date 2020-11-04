@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  border-top: 2px solid #95adb6;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #85ff9e;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #0063b2ff;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.sendButton:hover {
+  opacity: 0.8;
+  background-color: #85ff9e;
+  color: #2979ff;
+}
+
+.chatIcon {
+}
