@@ -3,7 +3,7 @@
 
 # Chateau
 * https://chateau.netlify.app
-* [Chateau](https://chateau.netlify.app) is a real-time chat web application that allows users to communicate live from anywhere in the world.
+> [Chateau](https://chateau.netlify.app) is a real-time chat web application that allows users to communicate live from anywhere in the world.
 <hr>
 
 
