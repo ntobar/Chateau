@@ -24,12 +24,13 @@
 # How It Works?
 > Chateau has a room system where each room can hold can hold multiple people.  
 > In the home screen you only have to put in a user name, and a room name.  You can create a room or enter an existing room.
-> To use it with your friends simply write a room name and click "Join", and then give that name to your friends so they can join.
+> To use it with your friends simply write a room name and click "Join", and then share that name to your friends so they can join!
 <hr>
 
 # Ideas for a future build:
-> Color Schemes to identify specific people when a room has more than 2 users.
-> Allowing the room creator to set a password or lock the room.
-> Allow the room creator to set a specific room capacity.
-> Allow users to see the list of rooms that are not locked.
+* Color Schemes to identify specific people when a room has more than 2 users.
+* Allowing the room creator to set a password or lock the room.
+* Allow the room creator to set a specific room capacity.
+* Allow users to see the list of rooms that are not locked.
+* End-to-End Encryption
 <hr>
