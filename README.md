@@ -7,7 +7,7 @@
 <hr>
 
 
-![Alt Text](https://imgur.com/vrF1ilM)
+![Alt Text](https://imgur.com/vrF1ilM.png)
 ![Alt Text](https://imgur.com/SMUkpKm)
 ![Alt Text](https://imgur.com/xc2GAdg)
 ![Alt Text](https://imgur.com/https://imgur.com/j7Pqox9)
