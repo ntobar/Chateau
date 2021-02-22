@@ -3,11 +3,12 @@ import { useSelector, useDispatch } from "react-redux";
 import queryString from "query-string";
 import io from "socket.io-client";
 import "./Chat.css";
+import ScrollToBottom from "react-scroll-to-bottom";
 import InfoBar from "../InfoBar/InfoBar";
 import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
-// import { addRoom } from "../../slices/chat/chatSlice2";
+import { addRoom, setRoomsDis } from "../../slices/chat/chatSlice";
 
 const ENDPOINT = "localhost:5000";
 
@@ -20,6 +21,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
+  const [rooms, setRooms] = useState([]);
 
   const [color, setColor] = useState("");
   //const ENDPOINT = "https://react-tobar-chat.herokuapp.com/";
@@ -32,7 +34,15 @@ const Chat = ({ location }) => {
     setRoom(room);
     setName(name);
 
-    // dispatch(addRoom(room));
+    dispatch({
+      type: "ADD_ROOM",
+      room: room,
+      //username: user.displayName
+    });
+
+    console.log("in cht.js");
+
+    //dispatch(addRoom(room));
 
     socket.emit("join", { name, room }, (error) => {
       if (error) {
@@ -44,6 +54,14 @@ const Chat = ({ location }) => {
   useEffect(() => {
     socket.on("message", (message) => {
       setMessages((messages) => [...messages, message]);
+    });
+
+    socket.on("rooms", ({ data }) => {
+      setRooms(data);
+      console.log(`${rooms.length} : rooms length`);
+      dispatch(addRoom(data));
+      //dispatch(setRoomsDis(data));
+      console.log("dispatch worked");
     });
 
     socket.on("roomData", ({ users }) => {

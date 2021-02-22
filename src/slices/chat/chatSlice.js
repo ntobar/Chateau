@@ -9,9 +9,19 @@ const chatSlice = createSlice({
   },
   reducers: {
     addRoom: (state, action) => {
+      console.log("addRoom executed");
       const room = action;
-      // state.rooms = [...state.rooms, room];
+      state.rooms = [...state.rooms, room];
     },
+    setRoomsDis: (state, action) => {
+      return {
+        ...state,
+        value: action,
+      };
+    },
+
+    // state.rooms = action;
+    // console.log(`setRoomDis: ${state.chat.rooms.length}`);
 
     // setRouteEXAMPLE: (state, action) => {
     //   const pathname = action.payload;
@@ -30,8 +40,8 @@ const chatSlice = createSlice({
   },
 });
 
-export const { addRoom } = chatSlice.actions;
-export const selectRooms = (state: RootState) => state.chat;
+export const { addRoom, setRoomsDis } = chatSlice.actions;
+export const selectRooms = (state: RootState) => state.chat.rooms;
 // console.log({ chatSlice });
 export default chatSlice.reducer;
 // const five = 4;

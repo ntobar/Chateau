@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Home } from "@material-ui/icons";
+import { useStateValue } from "../../StateProvider";
 
 import "./Join.css";
 
