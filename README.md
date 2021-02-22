@@ -7,7 +7,10 @@
 <hr>
 
 
-![Alt Text](https://imgur.com/NwlCo6E.gif)
+![Alt Text](https://imgur.com/vrF1ilM)
+![Alt Text](https://imgur.com/SMUkpKm)
+![Alt Text](https://imgur.com/xc2GAdg)
+![Alt Text](https://imgur.com/https://imgur.com/j7Pqox9)
 
 # Technology Used
 > Developed in React.js, Node.js.
