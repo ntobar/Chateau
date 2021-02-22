@@ -2,8 +2,8 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 # Chateau
->https://chateau.netlify.app
-> [Chateau](https://chateau.netlify.app) is a real-time chat web application that allows users to communicate live from anywhere in the world.
+* https://chateau.netlify.app
+* [Chateau](https://chateau.netlify.app) is a real-time chat web application that allows users to communicate live from anywhere in the world.
 <hr>
 
 
@@ -13,11 +13,11 @@
 ![Alt Text](https://imgur.com/j7Pqox9.png)
 
 # Technology Used
-> Developed in React.js, Node.js.
-> Express
-> Socket.IO
-> The front-end is deployed using Netlify
-> The server is deployed using Heroku
+* Developed in React.js, Node.js.
+* Express
+* Socket.IO
+* The front-end is deployed using Netlify
+* The server is deployed using Heroku
 <hr>
 
 
