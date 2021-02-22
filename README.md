@@ -3,7 +3,7 @@
 
 # Chateau
 * https://chateau.netlify.app
-> [Chateau](https://chateau.netlify.app) is a real-time chat web application that allows users to communicate live from anywhere in the world.
+> [Chateau](https://chateau.netlify.app) is a real-time Chat application that allows users to communicate live from anywhere in the world.
 <hr>
 
 
@@ -33,4 +33,5 @@
 * Allow the room creator to set a specific room capacity.
 * Allow users to see the list of rooms that are not locked.
 * End-to-End Encryption
+* "typing" bubbles, show when a message is delivered, and read.
 <hr>
