@@ -5,6 +5,15 @@ import { useStateValue } from "../../StateProvider";
 
 import "./Join.css";
 
+// <Link
+//   onClick={(event) => (!name ? event.preventDefault() : null)}
+//   to={"/rooms"}
+// >
+//   <button className="button marg" type="submit">
+//     All Rooms
+//   </button>
+// </Link>
+
 const Join = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
@@ -29,14 +38,7 @@ const Join = () => {
             onChange={(event) => setRoom(event.target.value)}
           />
         </div>
-        <Link
-          onClick={(event) => (!name ? event.preventDefault() : null)}
-          to={"/rooms"}
-        >
-          <button className="button marg" type="submit">
-            All Rooms
-          </button>
-        </Link>
+
         <Link
           onClick={(event) => (!name || !room ? event.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}
