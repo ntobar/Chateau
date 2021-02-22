@@ -10,7 +10,7 @@ import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
 import { addRoom, setRoomsDis } from "../../slices/chat/chatSlice";
 
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://react-tobar-chat.herokuapp.com/";
 
 let socket;
 
